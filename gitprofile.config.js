@@ -72,6 +72,7 @@ const config = {
   ],
 
   // To hide the `My Projects` section, keep it empty.
+  /*
   externalProjects: [
     {
       title: '',
@@ -88,6 +89,7 @@ const config = {
       link: 'https://example.com',
     },
   ],
+  */
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
@@ -103,11 +105,11 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
