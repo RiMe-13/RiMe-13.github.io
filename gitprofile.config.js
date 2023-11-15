@@ -54,14 +54,14 @@ const config = {
       companyLink: 'https://example.com',
     },
   ], */
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'No certification yet',
+      body: '',
+      year: '',
+      link: ''
     },
-  ], */
+  ],
   education: [
     {
       institution: 'SKKU, Major in Software',
